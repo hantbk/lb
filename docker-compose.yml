@@ -2,7 +2,7 @@ version: '1.0'
 services:
   frontend:
     build: .
-    container_name: load-balancer-simple
+    container_name: load-balancer-advance
     ports:
       - "3000:3000"
     command: --backends "http://web1:80,http://web2:80,http://web3:80"
